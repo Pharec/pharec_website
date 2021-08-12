@@ -16,7 +16,7 @@
   background-color: #265a60;
 }
 
-header.masthead {
+header.banner {
   position: relative;
   overflow: hidden;
   padding-top: calc(5rem + 66px);
@@ -28,17 +28,17 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
-header.masthead .masthead-content {
+header.banner .banner-content {
   z-index: 1;
   position: relative;
 }
-header.masthead .masthead-content .masthead-heading {
+header.banner .banner-content .banner-heading {
   font-size: 4rem;
 }
-header.masthead .masthead-content .masthead-subheading {
+header.banner .banner-content .banner-subheading {
   font-size: 2rem;
 }
-/*header.masthead .bg-circle {*/
+/*header.banner .bg-circle {*/
   /*z-index: 0;*/
   /*position: absolute;*/
   /*border-radius: 100%;*/
@@ -46,14 +46,14 @@ header.masthead .masthead-content .masthead-subheading {
 /*}*/
 
 @media (min-width: 720px) {
-  header.masthead {
+  header.banner {
     padding-top: calc(5rem + 55px);
     padding-bottom: 3rem;
   }
-  header.masthead .masthead-content .masthead-heading {
+  header.banner .banner-content .banner-heading {
     font-size: 6rem;
   }
-  header.masthead .masthead-content .masthead-subheading {
+  header.banner .banner-content .banner-subheading {
     font-size: 4rem;
   }
 }
