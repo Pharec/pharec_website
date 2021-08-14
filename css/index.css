@@ -19,9 +19,8 @@
 header.banner {
   position: relative;
   overflow: hidden;
-  padding-top: calc(5rem + 66px);
-  padding-bottom: 2rem;
-  /*background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);*/
+  padding-top: calc(4rem + 66px);
+  padding-bottom: 1rem;
   background: linear-gradient(0deg, #45baa9 0%, #265a60 100%);
   background-repeat: no-repeat;
   background-position: center center;
@@ -38,17 +37,11 @@ header.banner .banner-content .banner-heading {
 header.banner .banner-content .banner-subheading {
   font-size: 2rem;
 }
-/*header.banner .bg-circle {*/
-  /*z-index: 0;*/
-  /*position: absolute;*/
-  /*border-radius: 100%;*/
-  /*background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);*/
-/*}*/
 
 @media (min-width: 720px) {
   header.banner {
-    padding-top: calc(5rem + 55px);
-    padding-bottom: 3rem;
+    padding-top: calc(2rem + 55px);
+    padding-bottom: 1rem;
   }
   header.banner .banner-content .banner-heading {
     font-size: 6rem;
