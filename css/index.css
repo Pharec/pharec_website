@@ -37,18 +37,3 @@ header.banner .banner-content .banner-heading {
 header.banner .banner-content .banner-subheading {
   font-size: 2rem;
 }
-
-@media (min-width: 720px) {
-  header.banner {
-    padding-top: calc(2rem + 55px);
-    padding-bottom: 1rem;
-  }
-  header.banner .banner-content .banner-heading {
-    font-size: 6rem;
-  }
-  header.banner .banner-content .banner-subheading {
-    font-size: 4rem;
-  }
-}
-
-
