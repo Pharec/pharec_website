@@ -21,7 +21,7 @@ header.banner {
   overflow: hidden;
   padding-top: calc(4rem + 66px);
   padding-bottom: 1rem;
-  background: linear-gradient(0deg, #45baa9 0%, #265a60 100%);
+  /*background: linear-gradient(0deg, #45baa9 0%, #265a60 100%);*/
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
