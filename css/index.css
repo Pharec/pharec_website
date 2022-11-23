@@ -13,7 +13,7 @@
 }
 
 .bg-pharec {
-  background-color: #265a60;
+  background-color: #265a60 !important;
 }
 
 header.banner {
