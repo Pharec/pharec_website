@@ -1,8 +1,9 @@
 // Placeholder to allow overriding predefined variables smoothly.
-$base-font-family:  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+//$base-font-family:  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$base-font-family:  system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 $base-font-size:   1rem;
 $base-color:      lighten(#265a60, 1%);
 $link-base-color:      lighten(#265a60, 10%);
-$link-visited-color:      lighten(#265a60, 40%);
+$link-visited-color:      lighten(#265a60, 12%);
 $link-hover-color:      lighten(#265a60, 1%);
 $brand-color:      lighten(#265a60, 10%);
