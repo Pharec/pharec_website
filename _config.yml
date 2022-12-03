@@ -25,6 +25,8 @@ twitter_username: PharecDL
 github_username:  Pharec
 google_analytics: G-9VXC73NJFQ
 
+show_excerpts: true
+
 # Build settings
 markdown: kramdown
 #theme: minima
