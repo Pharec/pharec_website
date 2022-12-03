@@ -1,5 +1,6 @@
 ---
-Title: Phishing Overview
+title: Phishing Overview
+thumbnail-src: /assets/posts/phishing_overview/ex1_1.png
 
 ---
 

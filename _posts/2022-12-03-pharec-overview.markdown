@@ -1,9 +1,10 @@
 ---
-Title: Pharec Overview
+title: Pharec Overview
+author: Ali Aldakheel
+thumbnail-src: /assets/pharec_tech.PNG
 
 ---
 
-#Overview
   Phishing attacks are regarded as one of the most effective and low
   effort tools hackers rely on to compromise cybersystems or leak
   sensitive data. Pharec aims to bring innovative (autonomous)
@@ -15,15 +16,17 @@ Title: Pharec Overview
   cybersecurity and deep learning. We train your machine to read,
   see and analyze like a cybersecurity expert beside you.  
 
-#Deep Learning Technology
+# Deep Learning Technology
   End to end deep learning with both image and text data
   to train a highly accurate phishing detection model. The
   model has similar visibility (actually greater
   visibility) to a human and if trained correctly can learn
   skills of a cybersecurity expert. It is as if you have a
   cybersecurity expert watching over (helping) you at all times.
+  
+  ![Pharec Technology](/assets/pharec_tech_design.png)
 
-#Features
+# Features
   - Real time detection of phishing pages.
   - Easy to setup and use (autonomous).
   - Improved detection accuracy compared to other offerings.
@@ -32,11 +35,11 @@ Title: Pharec Overview
   - Support for Arabic content (phishing) by
   - including Arabic pages in training.
 
-#Prototype demo (MVP)
+# Prototype demo (MVP)
 Check out the demo submitted to Thakaa Cybersecurity Challenge 2021 in [youtube](https://www.youtube.com/embed/pR6VFXN539Q).
 Also a video testing the model [here](https://www.youtube.com/embed/PUasUc83SPo).
 
-#Github Repos
+# Github Repos
   We are still in early phases of development (under
   active development). Please check out the following
   repos and reach out on social media (found bellow) or through Github (by
