@@ -3,21 +3,32 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <!--<a class="site-title" style="color:white; font-size: 1.5rem;font-weight: 900;letter-spacing: 0.12rem;" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>-->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top mb-2">
-      <div class="container ps-2 pe-3">
-        <img class="rounded-3" width=45 src="/assets/pharec_logo_orig.PNG" alt="..." />
-        <div class="px-2">
-        <a class="navbar-brand text-wrap" href="/blog">Pharec</a>
-        <p class="text-white align-text-right h6" >Deep learning technology</p>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto" style="align-items:end;">
-            <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
-            <li class="nav-item bg-dark rounded-3"><a class="nav-link" href="/">Home</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top mb-2">
+  <div class="container ps-2 pe-3">
+        <!--<a class="navbar-brand text-wrap" href="{{ "/blog" | relative_url }}">Pharec</a>-->
+    <a href="{{ "/" | relative_url }}">
+      <img class="rounded-3" width=45 src="/assets/pharec_logo_orig.PNG" alt="..." />
+    </a>
+    <div class="px-2">
+      <a href="{{ "/" | relative_url }}">
+        <strong class="navbar-brand text-wrap" style="color:whitesmoke;">
+        Pharec
+        </strong>
+        <p class="text-light align-text-right h6 small" >
+          <strong class="text-white">Ph</strong>ishing
+          <strong class="text-white">A</strong>utomatic
+          <strong class="text-white">Rec</strong>ognition
+        </p>
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto" style="align-items:end;">
+        <li class="nav-item"><a class="nav-link" href="{{ "/" | relative_url }}">Home</a></li>
+        <li class="nav-item bg-dark rounded-3 px-1"><a class="nav-link" href="{{ "/blog" | relative_url }}">Blog</a></li>
+      </ul>
+    </div>
   </div>
-</header>
+</nav>
+  <!--</div>-->
+<!--</header>-->
